@@ -9,11 +9,11 @@ import pl.szczesny.dataservice.domain.model.UserRepository;
 @RestController
 @RequestMapping(value = "/users")
 @RequiredArgsConstructor
-public class UserEndPoint {
+public class UserEndpoint {
 
     @GetMapping("/hello")
     String GetGreeting(){
-        return "RuchamPsaJakSra";
+        return "xxyyzzz";
     }
 
     //co mam skonfigurować żeby się uruchomił swagger/ui, jak zrobić post mapping żeby zapisywało usera do bazy danych, jak zrobić get mapping do wyciągania usera
