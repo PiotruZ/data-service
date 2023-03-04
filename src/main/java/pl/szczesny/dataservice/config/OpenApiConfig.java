@@ -6,4 +6,6 @@ import org.springframework.context.annotation.Profile;
 @Configuration
 @Profile("!stage and !prod")
 public class OpenApiConfig {
+
+
 }
